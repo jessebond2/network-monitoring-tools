@@ -6,8 +6,8 @@ After=network.target
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/internet-monitor
-ExecStart=/usr/bin/node /home/pi/internet-monitor/internet-monitor.js
+WorkingDirectory=/home/pi/Documents/github/network-monitoring-tools
+ExecStart=/usr/bin/node /home/pi/Documents/github/network-monitoring-tools/internet-monitor.js
 Restart=always
 RestartSec=10
 
