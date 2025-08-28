@@ -1,0 +1,22 @@
+{
+  "name": "network-monitoring-tools",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jessebond2/network-monitoring-tools#readme",
+  "bugs": {
+    "url": "https://github.com/jessebond2/network-monitoring-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessebond2/network-monitoring-tools.git"
+  },
+  "license": "",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install": "cp internet-monitor.service /etc/systemd/system/internet-monitor.service"
+  },
+  "packageManager": "yarn@3.2.4+sha512.bb197bb586aabeca42ce9113e2235af3edaeac5797d26c99067e58d401d4eb43fbd51b644431434dd2a5f612ee65ffcd20262016c62f3608eb39fbfa6eeb1de7"
+}

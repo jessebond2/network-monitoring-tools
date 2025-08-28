@@ -1,0 +1,15 @@
+# /etc/systemd/system/internet-monitor.service
+[Unit]
+Description=Internet Connection Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/internet-monitor
+ExecStart=/usr/bin/node /home/pi/internet-monitor/internet-monitor.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
