@@ -7,7 +7,7 @@ After=network.target
 Type=simple
 User=pi
 WorkingDirectory=/home/pi/Documents/github/network-monitoring-tools
-ExecStart=/usr/bin/node /home/pi/Documents/github/network-monitoring-tools/internet-monitor.js
+ExecStart=/usr/bin/npm run start
 Restart=always
 RestartSec=10
 
